@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>IHLFNModMenu</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MelonLoader"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\net6\MelonLoader.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\net6\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Il2CppInterop.Runtime"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Il2Cppmscorlib"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Il2CppMonsterBox.Systems.Tools"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\Il2CppAssemblies\Il2CppMonsterBox.Systems.Tools.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Il2CppMonsterBox.Core.Saving"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\Il2CppAssemblies\Il2CppMonsterBox.Core.Saving.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Il2CppMonsterBox.Core.Media"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\Il2CppAssemblies\Il2CppMonsterBox.Core.Media.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Il2CppMonsterBox.Core.Enums"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\Il2CppAssemblies\Il2CppMonsterBox.Core.Enums.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\Il2CppAssemblies\UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.InputLegacyModule"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\Il2CppAssemblies\UnityEngine.InputLegacyModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>E:\SteamLibrary\steamapps\common\IN HEAT\MelonLoader\Il2CppAssemblies\UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
